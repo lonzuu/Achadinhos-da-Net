@@ -4,40 +4,63 @@
     <meta charset="UTF-8">
     <title>Achadinhos da Shopee</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        .produto {
-            margin: 20px;
-            display: inline-block;
-            border: 1px solid #ddd;
-            padding: 15px;
-            background: white;
-            border-radius: 10px;
-            width: 200px;
-        }
-        .produto img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-        }
-        .produto a {
-            display: block;
-            margin-top: 10px;
-            text-decoration: none;
-            color: #0077cc;
-            font-weight: bold;
-        }
-        .produto a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8f5; /* Fundo claro com tom esverdeado */
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #009944; /* Verde do Shopee */
+        color: white;
+        padding: 20px;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    .produto {
+        display: inline-block;
+        width: 200px;
+        margin: 20px;
+        border: 1px solid #ddd;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s;
+    }
+
+    .produto:hover {
+        transform: translateY(-5px);
+    }
+
+    .produto img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .produto a {
+        display: block;
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #009944;
+        font-weight: bold;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .produto a:hover {
+        background-color: #e6fff7;
+    }
+
+    .container {
+        display: inline-block;
+        text-align: center;
+    }
+</style>
+    
 </head>
 <body>
 
