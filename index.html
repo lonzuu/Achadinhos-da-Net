@@ -3,202 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <title>Achadinhos da Shopee</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+
     <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #fff8f0; /* Fundo claro com tom laranja suave */
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-    h1 {
-        background-color: #FF6B35; /* Laranja principal */
-        color: white;
-        padding: 35px;
-        margin: 0;
-        font-weight: normal;
-    }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: left;
+            background-color: #FF6B35;
+        }
+
+        .logo {
+            width: 60px;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            margin: 0;
+            color: white;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
         h2 {
-        background-color: #FF6B35; /* Laranja principal */
-        color: white;
-        padding: 3px;
-        margin: 0;
-        font-weight: normal;
-    }
+            font-size: 16px;
+            color: #fff8f0;
+        }
 
-    .produto {
-        display: inline-block;
-        width: 200px;
-        margin: 20px;
-        border: 1px solid #ddd;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s;
-    }
+        .produto {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+            text-align: center;
+        }
 
-    .produto:hover {
-        transform: translateY(-5px);
-    }
+        .produto:hover {
+            transform: translateY(-5px);
+        }
 
-    .produto img {
-        width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
+        .produto img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
 
-    .produto a {
-        display: block;
-        text-decoration: none;
-        padding: 10px 15px;
-        color: #FF6B35;
-        font-weight: bold;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
+        .produto a {
+            display: block;
+            text-decoration: none;
+            padding: 10px 15px;
+            color: #FF6B35;
+            font-weight: bold;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
 
-    .produto a:hover {
-        background-color: #fff0e6;
-    }
+        .produto a:hover {
+            background-color: #fff0e6;
+        }
 
-    .container {
-        display: inline-block;
-        text-align: center;
-    }
-</style>
+        .container-produtos {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>🛍️Achadinhos Da Shopee</h1>
-    <h2>Com as melhores ofertas, escolhidas a dedo para você😊</h2>
-
-    <!-- Relógio De Quartzo Empresarial Masculino Pulseira De Aço Inoxidável Para Profissionais De Escritório , Excl . Caixa -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/2LMGG97axt"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7ratt-mahsbqfnnats82.webp"  alt="relogio">
-        </a>
-        <a href="https://s.shopee.com.br/2LMGG97axt"  target="_blank">Ver Oferta </a>
+    <!-- Cabeçalho com logo e título -->
+    <div class="header">
+        <img src="imagens/logo.png" alt="Logo Achadinhos da Shopee" class="logo">
+        <div>
+            <h1>🛍️ Achadinhos da Shopee</h1>
+            <h2>Com as melhores ofertas, escolhidas a dedo para você 😊</h2>
+        </div>
     </div>
 
-    <!-- D20 Pro Y68 Smartwatch Relógio Inteligente Resistente Á Água Com Marcação De Batimentos Bluetooth -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/9pSHCmoQqG"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcdu-ls2yi0rvggd28b.webp"  alt="relogio">
-        </a>
-        <a href="https://s.shopee.com.br/9pSHCmoQqG"  target="_blank">Ver Oferta </a>
-    </div>
+    <!-- Produtos -->
+    <div class="container-produtos">
 
-    <!-- Carregador Power Bank Portátil 20000mah Universal Saida 4 Cabos -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/qXSURme2o"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd4f-lwg51zlfj7ln6c.webp"  alt="Carregador">
-        </a>
-        <a href="https://s.shopee.com.br/qXSURme2o"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Relógio De Quartzo Empresarial Masculino -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/2LMGG97axt"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7ratt-mahsbqfnnats82.webp"  alt="Relógio">
+            </a>
+            <a href="https://s.shopee.com.br/2LMGG97axt"  target="_blank">Relógio Empresarial Masculino</a>
+        </div>
 
-     <!-- Kit -Barbeador-cuidados masculinos e aparador de pelos Maquina cortar cabelo -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/8UwtezJecy"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcbu-m6han713zjbu87.webp"  alt="Barbeador">
-        </a>
-        <a href="https://s.shopee.com.br/8UwtezJecyt"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- D20 Pro Y68 Smartwatch -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/9pSHCmoQqG"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcdu-ls2yi0rvggd28b.webp"  alt="Smartwatch">
+            </a>
+            <a href="https://s.shopee.com.br/9pSHCmoQqG"  target="_blank">Smartwatch D20 Pro Y68</a>
+        </div>
 
-     <!-- X15 Fone De Ouvido para Jogos Bluetooth 5.Tws Stereo Ultra Baixa Latency Gaming Headset -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/5pw8WrHanh"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lrj45ypzj4el13@resize_w900_nl.webp"  alt="Fone">
-        </a>
-        <a href="https://s.shopee.com.br/5pw8WrHanh"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Carregador Power Bank -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/qXSURme2o"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd4f-lwg51zlfj7ln6c.webp"  alt="Carregador">
+            </a>
+            <a href="https://s.shopee.com.br/qXSURme2o"  target="_blank">Power Bank 20000mAh</a>
+        </div>
 
-     <!-- Projetor 4K HD 150" Multimídia Compatível com Celular, TV Box, PC, Wi-Fi e Bluetooth Bivolt IDALI LIFE -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/9KW0lHW13U"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7wacsvk9m29fd.webp"  alt="Projetor">
-        </a>
-        <a href="https://s.shopee.com.br/9KW0lHW13U"  target="_blank">Ver Oferta </a>
-    </div>
-    
-     <!-- Infinix Smart 9, 128GB 4GB RAM, Câmera 13MP, Processador Mediatek Hélio G81, Bateria 5000MAH, Versão global, Lacrado -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/AUhy9xruVt"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3fd554okshkdf.webp"  alt="Celular">
-        </a>
-        <a href="https://s.shopee.com.br/AUhy9xruVt"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Kit Barbeador -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/8UwtezJecy"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcbu-m6han713zjbu87.webp"  alt="Barbeador">
+            </a>
+            <a href="https://s.shopee.com.br/8UwtezJecy"  target="_blank">Kit Barbeador Profissional</a>
+        </div>
 
-         <!-- Celular Smartphone Realme Note 50 / Note 60 256/4GB 128GB/4GB 64/3GB Ram - 1 Ano de Garantia -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/6VBpOhrW1I"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma1lpro0huki37.webp"  alt="Celular">
-        </a>
-        <a href="https://s.shopee.com.br/6VBpOhrW1I"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- X15 Fone Bluetooth -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/5pw8WrHanh"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lrj45ypzj4el13@resize_w900_nl.webp"  alt="Fone">
+            </a>
+            <a href="https://s.shopee.com.br/5pw8WrHanh"  target="_blank">Fone Bluetooth X15</a>
+        </div>
 
-             <!-- Modelador Profissional Morina de Cerâmica Para Cachos e Ondas Barril 25mm/19mm/30mm/28mm -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/BHlrPT4Zv"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lz0l0l7dgxmpc9.webp"  alt="utencilios femininos">
-        </a>
-        <a href="https://s.shopee.com.br/BHlrPT4Zv"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Projetor 4K HD -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/9KW0lHW13U"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7wacsvk9m29fd.webp"  alt="Projetor">
+            </a>
+            <a href="https://s.shopee.com.br/9KW0lHW13U"  target="_blank">Projetor 4K HD Multimídia</a>
+        </div>
 
-        <!-- E88 Pro Drone HD Câmera Dupla Posicionamento WiFi FPV Altura Manter Profissional Quadricóptero RC -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/60FYntm7fh"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7ravs-majdbamq099v76.webp"  alt="Drone">
-        </a>
-        <a href="https://s.shopee.com.br/60FYntm7fh"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Infinix Smart 9 -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/AUhy9xruVt"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3fd554okshkdf.webp"  alt="Celular">
+            </a>
+            <a href="https://s.shopee.com.br/AUhy9xruVt"  target="_blank">Infinix Smart 9</a>
+        </div>
 
-            <!-- Kit Youtuber Ring Light 10 Polegadas Completo Iluminação Profissional Blogueiro Articulada Bivolt -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/800dGJRLEm"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1reerod8tshcc@resize_w900_nl.webp"  alt="iluminaçao">
-        </a>
-        <a href="https://s.shopee.com.br/800dGJRLEm"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Realme Note 50 -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/6VBpOhrW1I"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma1lpro0huki37.webp"  alt="Celular">
+            </a>
+            <a href="https://s.shopee.com.br/6VBpOhrW1I"  target="_blank">Realme Note 50</a>
+        </div>
 
-                <!-- Kit Completo Motor Para Bike 80 Cilindradas Bicicleta Motorizada -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/2qIX7dHbsR"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/549a2c8f490fe1226dc7f1c55e0be099.webp"  alt="motor">
-        </a>
-        <a href="https://s.shopee.com.br/2qIX7dHbsR"  target="_blank">Ver Oferta </a>
-    </div>
+        <!-- Modelador Morina -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/BHlrPT4Zv"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lz0l0l7dgxmpc9.webp"  alt="Modelador">
+            </a>
+            <a href="https://s.shopee.com.br/BHlrPT4Zv"  target="_blank">Modelador Morina</a>
+        </div>
 
-         <!-- Patinho Jack da Zueira Com LED – Pato de Borracha Para Moto, Bike, Bicicleta e Decoração -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/8ztATOnhCP"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rfgy-m93abt8jk8ma3f.webp"  alt="acessorios">
-        </a>
-        <a href="https://s.shopee.com.br/8ztATOnhCP"  target="_blank">Ver oferta </a>
-    </div>
+        <!-- Drone E88 Pro -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/60FYntm7fh"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7ravs-majdbamq099v76.webp"  alt="Drone">
+            </a>
+            <a href="https://s.shopee.com.br/60FYntm7fh"  target="_blank">Drone E88 Pro</a>
+        </div>
 
-             <!-- Multifuncional Universal Alicate Diagonal Heavy Agulha Nose Alicates Ferramentas De Hardware -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/LbC9ZMb3D"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7reot-m8cquhxafgsgf1.webp"  alt="Ferramentas">
-        </a>
-        <a href="https://s.shopee.com.br/LbC9ZMb3D"  target="_blank">Ver oferta </a>
-    </div>
+        <!-- Ring Light Kit -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/800dGJRLEm"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1reerod8tshcc@resize_w900_nl.webp"  alt="Iluminação">
+            </a>
+            <a href="https://s.shopee.com.br/800dGJRLEm"  target="_blank">Ring Light 10 polegadas</a>
+        </div>
 
-             <!-- Kit De Ferramentas 46 Peças Jogo De Soquetes Chave Catraca Reversível Com Maleta Jogo Completo -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/6fVFhHnfOf"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7odfm5tah78a5.webp"  alt="Ferramentas">
-        </a>
-        <a href="https://s.shopee.com.br/6fVFhHnfOf"  target="_blank">Ver oferta </a>
-    </div>
+        <!-- Motor para Bike -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/2qIX7dHbsR"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/549a2c8f490fe1226dc7f1c55e0be099.webp"  alt="Motor">
+            </a>
+            <a href="https://s.shopee.com.br/2qIX7dHbsR"  target="_blank">Motor para Bicicleta</a>
+        </div>
 
-             <!-- Aspirador e Soprador Portátil 4 em 1 - Alta Potência e Multifuncional para Limpeza Completa -->
-    <div class="produto">
-        <a href="https://s.shopee.com.br/8ztATiO1Ap"  target="_blank">
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m351b81mpplhcb@resize_w900_nl.webp"  alt="Utencilios">
-        </a>
-        <a href="https://s.shopee.com.br/8ztATiO1Ap"  target="_blank">Ver oferta </a>
+        <!-- Patinho Jack -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/8ztATOnhCP"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rfgy-m93abt8jk8ma3f.webp"  alt="Acessórios">
+            </a>
+            <a href="https://s.shopee.com.br/8ztATOnhCP"  target="_blank">Patinho Jack da Zueira</a>
+        </div>
+
+        <!-- Alicate Universal -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/LbC9ZMb3D"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/sg-11134201-7reot-m8cquhxafgsgf1.webp"  alt="Ferramentas">
+            </a>
+            <a href="https://s.shopee.com.br/LbC9ZMb3D"  target="_blank">Alicate Universal</a>
+        </div>
+
+        <!-- Kit de Ferramentas -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/6fVFhHnfOf"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7odfm5tah78a5.webp"  alt="Ferramentas">
+            </a>
+            <a href="https://s.shopee.com.br/6fVFhHnfOf"  target="_blank">Kit de Ferramentas 46 Peças</a>
+        </div>
+
+        <!-- Aspirador Portátil -->
+        <div class="produto">
+            <a href="https://s.shopee.com.br/8ztATiO1Ap"  target="_blank">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m351b81mpplhcb@resize_w900_nl.webp"  alt="Utensílios">
+            </a>
+            <a href="https://s.shopee.com.br/8ztATiO1Ap"  target="_blank">Aspirador e Soprador 4 em 1</a>
+        </div>
+
     </div>
 
 </body>
